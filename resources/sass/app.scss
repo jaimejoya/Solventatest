@@ -1,0 +1,7 @@
+// Importar Bootstrap usando @use en lugar de @import
+@use "bootstrap/scss/bootstrap" with (
+  $enable-negative-margins: true,
+  $enable-deprecation-messages: false
+);
+
+// Tus estilos personalizados aquí 

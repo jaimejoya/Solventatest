@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+@import 'variables';
+
+@import '~bootstrap/scss/bootstrap';
+.boton{
+  
+    background-color:#d3753e;
+  }
+  
+  
+  .btn-secondary {
+    color: #fff;
+    background-color: #d3753e;
+    border-color: #d3753e;
+  
+  }
+  
+  element.style {
+    color: #d3753e;
+  }
+
+  .v-text-field.v-text-field--solo .v-input__control{
+    min-height: 10px;
+  }
+ 
+
