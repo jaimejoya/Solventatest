@@ -7,7 +7,12 @@ mix.js('resources/js/app.js', 'public/js')
        processCssUrls: false,
        postCss: [
            require('autoprefixer')
-       ]
+       ],
+       vue: {
+           compilerOptions: {
+               __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: true,
+           },
+       },
    });
 
 // Desactivar las notificaciones de éxito

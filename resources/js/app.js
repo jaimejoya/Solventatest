@@ -1,9 +1,6 @@
-require('./bootstrap');
-window.Vue = require('vue').default;
+import { createApp } from 'vue';
+import Login from './components/login.vue';
 
-// Registrar componentes Vue
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-
-const app = new Vue({
-    el: '#app'
-});
+const app = createApp({});
+app.component('login', Login);
+app.mount('#app');
